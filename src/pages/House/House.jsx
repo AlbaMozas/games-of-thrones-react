@@ -80,7 +80,7 @@ export default function House() {
 
     //allegiance
     valores = fData.allegiance;
-    details = [...details, { title: "allegiance", items: [...valores] }];
+    details = [...details, { title: "allegiances", items: [...valores] }];
 
     //religion
     valores = fData.religion;
